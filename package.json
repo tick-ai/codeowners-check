@@ -1,0 +1,22 @@
+{
+  "name": "codeowners-check",
+  "version": "0.1.0",
+  "description": "Reports the CODEOWNERS lines that are wrong or do nothing, the files nobody owns, who owns a path and what an owner owns. One Node file, nothing to install.",
+  "type": "module",
+  "bin": {
+    "codeowners-check": "codeowners-check.mjs"
+  },
+  "files": ["codeowners-check.mjs", "README.md", "LICENSE"],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": ["codeowners", "github", "code-review", "ownership", "lint", "ci", "cli"],
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tick-ai/codeowners-check.git"
+  }
+}
